@@ -1,0 +1,50 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #158A45;
+}
+header {
+  margin: auto;
+  text-align: center;
+  background: #CEFF6A;
+  padding: 30px 0px 30px 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #CEFF6A;
+  line-height: 24px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+}
+img {
+
+}
+section {
+  padding: 100px 50px 100px 50px;
+  background-color: #158A45;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #CEFF6A;
+}
+a:visited {
+  color: white;
+}
+blockquote {
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+}
+footer {
+  text-align: center;
+  color: #158A45;
+}
+input {
+
+}
