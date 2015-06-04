@@ -41,6 +41,7 @@ p {
  }
  a {
    color: white;
+   text-decoration: none;
  }
  a:visited {
    color: white;
@@ -56,7 +57,4 @@ p {
      padding: 30px;
      color: white;
      position: fixed;
-  }
-  .year {
-    float: right;
   }
