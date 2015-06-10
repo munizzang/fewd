@@ -1,5 +1,6 @@
 body {
   padding-left: 50px;
+  margin: 50px;
 }
 h1 {
   font-family: 'Slabo 27px', serif;
@@ -35,7 +36,7 @@ li {
 }
 
 
-article {
+article p {
   max-width: 800px;
   font-family: 'Open Sans Condensed', sans-serif; font-weight: 400;
 }
@@ -46,10 +47,17 @@ img {
 ul {
   padding-left: 0px;
 }
-
 h4 {
+  font-weight: 600;
+  color: black;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+h5 {
   text-align: right;
   font-weight: 600;
+  font-family: 'Open Sans Condensed', sans-serif;
+
 }
 
 .red {
@@ -62,4 +70,30 @@ p::first-letter {
   font-size: 300%;
   color: #2A2D25;
 
+}
+
+.leftcol {
+  padding-top: 50px;
+  width: 20%;
+  float: right;
+  position: relative;
+}
+.right {
+  width: 70%;
+  float: left;
+  position: relative;
+}
+h6 {
+  font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif; font-weight: 400;
+}
+blockquote {
+  width: 200px;
+  height: 120px;
+  background: grey;
+  text-align: center;
+  padding-top: 80px;
+  margin: 0 auto;
+  font-family: 'Open Sans Condensed', sans-serif; font-weight: 400;
+  font-size: 16px;
 }
