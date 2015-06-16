@@ -6,7 +6,7 @@ function Thermostat(){
   var currentTemp = 64;
   var upButton = document.getElementById('up');
   var downButton = document.getElementById('down');
-  var temperature = document.getElementById('temp');
+  var temperatureText = document.getElementById('temp');
   var body = document.getElementsByTagName('body')[0];
 
   console.log(body);
@@ -35,13 +35,13 @@ function Thermostat(){
     console.log('The current temperature is '+currentTemp+'.');
     changeTemperature(currentTemp);
 
-    upButton.addEventlistener('mousedown',function(){
+    upButton.addEventListener('mousedown',function(){
       currentTemp = currentTemp +1;
       changeTemperature(currentTemp);
 
   });
 
-    downButton.addEventlistener('mousedown',function(){
+    downButton.addEventListener('mousedown',function(){
       currentTemp = currentTemp -1;
       changeTemperature(currentTemp);
 
